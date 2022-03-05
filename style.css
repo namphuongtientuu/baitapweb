@@ -1,0 +1,72 @@
+
+
+#main {
+    background: rgb(255,201,201);
+    background: linear-gradient(90deg, rgba(255,201,201,1) 9%, rgba(255,228,196,1) 100%);
+}
+
+#header {
+    text-align: center;
+}
+
+.title-heading {
+    color: #fc466b;
+    padding-top: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title-sub-heading,
+#content .content-heading,
+#content .content-entertainment
+{
+    color: #fc9546;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#nav {
+    list-style-type: none;
+    text-align: justify;
+    padding-left: 47.5%;
+}
+
+#content {
+    text-align: center;
+}
+
+#content .content-sub-heading {
+    color: #fc7046;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#content .content-table {
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .covid-text,
+#content .baibao-text {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#content .content-covid {
+    color: #464dfc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 
+#content .content-entertainment {
+    color: #fc9546;
+    font-size: 40px;
+} */
+
+#footer {
+    text-align: center;
+    margin: 25px;
+    line-height: 25px;
+}
